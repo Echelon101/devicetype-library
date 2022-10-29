@@ -1,0 +1,34 @@
+---
+manufacturer: Ubiquiti
+model: UniFi Dream Machine
+slug: udm
+part_number: UDM
+comments: |
+  [UniFi Dream Machine](https://store.ui.com/products/udm-us)
+
+  All-in-one console and security gateway with (4) 1G LAN, (1) 1G WAN, (1) WiFi 5 Accesspoint
+
+  Dimensions: Ø 110 x 184.2 mm (Ø 4.33 x 7.25")
+u_height: 5
+is_full_depth: false
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    label: Port 1 - LAN
+  - name: eth1
+    type: 1000base-t
+    label: Port 2 - LAN
+  - name: eth2
+    type: 1000base-t
+    label: Port 3 - LAN
+  - name: eth3
+    type: 1000base-t
+    label: Port 4 - LAN
+  - name: eth4
+    type: 1000base-t
+    label: Port 9 - WAN 1
+power-ports:
+  - name: Supply
+    type: iec-60320-c8
+    maximum_draw: 26
+    description: 100-240VAC/50-60 Hz
